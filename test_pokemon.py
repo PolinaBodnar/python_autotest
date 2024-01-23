@@ -6,7 +6,7 @@ HEADER = {'Content-Type' : 'application/json', 'treiner_token' : 'd4b14fab7a08c2
 
 body = {
     "name": "Pomodoro",
-    "photo": "https://dolnikov.ru/pokemons/albums/005.png"
+    "photo": "https://dolnikov.ru/pokemons/albums/007.png"
 }
 
 response = requests.post(url=f'{URL}/pokemons', json=body, headers=HEADER)
